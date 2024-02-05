@@ -31,4 +31,15 @@ python manage.py runserver [port or ip:port]
 ```
 (Por padrão o ip é `127.0.0.1` a porta é `8000`)
 
+Para atualizar banco de dados com modelos:
+```shell
+python manage.py makemigrations #Cria as "migrações"
+python manage.py migrate #Aplica as "migrações no banco de dados
+```
+
+Entrar no shell do Django:
+```shell
+python manage.py shell
+```
+
 ## Arquivos e diretórios
